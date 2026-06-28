@@ -36,7 +36,7 @@ h1 {
 
 main>p {
     background-color: white; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 32px;
     text-align: center;
     max-width: 800px;
@@ -83,11 +83,12 @@ main>p {
 }
 
 .collection-card .description {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
     outline: 3px black; 
-    background-color: plum; 
+    background-color: lightskyblue; 
     }
 
     @media (min-width: 480px) {
