@@ -43,11 +43,9 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
-    display: flex; 
-    flex-basis: 300px 
-    justify-content: space-evenly;
-    align-content: flex-end
-    flex-direction:column; 
+    flex-basis: 300px; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .collection-card {
@@ -94,6 +92,6 @@ main>p {
     }
     @media (mid-width: 1024px){
         .collection-card {
-            flex-bais: 30%;
+            flex-basis: 30%;
         }
     }
