@@ -19,6 +19,22 @@ header {
     background-color: #103970;
     color: pink; 
 }
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1em;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+h2 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: start; 
+}
 main {
     max-width: 1200px;
     width: 90%;
