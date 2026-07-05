@@ -22,11 +22,95 @@ header {
 nav {
     display: flex;
     justify-content: flex-start; 
-    align-items: center; 
     gap: 16px; 
     padding: 16px; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.button-section {
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.button-section {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button-01 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-01:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+.button-02 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.button-02:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+.button-03 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.button-03:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+.button-04 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.button-04:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+.button-05 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.button-05:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+
 h1 {
     font-weight: normal;
     font-size: 48px;
@@ -51,7 +135,7 @@ main {
     padding: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 5px solid rgba(0, 0, 0, 0.25);
     background-color: #47CCB8;
@@ -66,8 +150,8 @@ main {
 }
 .collection-card {
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
-    padding: 16px;
+    background-color: #e9d39f;
+    padding: 8px;
     border: 10px solid black; 
 }
 .collection-card img {
