@@ -11,6 +11,13 @@ html, body {
     color: pink;
     padding: 32px 0;
 }
+main {
+    max-width: 1200px;
+    width: 90%;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #784187;
+}
 .collection-grid {
     margin: 48px 0;
     flex-basis: 300px; 
@@ -37,4 +44,5 @@ html, body {
     line-height: 1.5;
     outline: 3px solid rgba(0, 0, 0, 0.25);
     background-color: lightskyblue;
+    color: black; 
 }
