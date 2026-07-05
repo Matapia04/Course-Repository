@@ -20,12 +20,17 @@ header {
     color: black; 
 }
 nav {
+    background-image: url(Penguins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 16px; 
     padding: 16px; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    
 }
 .container {
     max-width: 800px;
@@ -163,7 +168,7 @@ main {
 .collection-card {
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: #e9d39f;
-    padding: 8px;
+    padding: 4px;
     border: 10px solid black; 
 }
 .collection-card img {
