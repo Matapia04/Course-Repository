@@ -9,6 +9,7 @@ html, body {
     display: flex;
     justify-content: flex-start;
     color: pink;
+    background-color:#784187; 
     padding: 32px 0;
 }
 main {
