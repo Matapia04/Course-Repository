@@ -9,15 +9,15 @@ html, body {
     display: flex;
     justify-content: flex-center;
     flex-direction: column; 
-    color: pink;
-    background-color:#784187; 
-    padding: 32px 0;
+    color: black;
+    background-color: #E9D39F; 
+    padding: 16px 0;
 }
 header {
     text-align: flex-start; 
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: #E9D39F;
-    color: pink; 
+    color: black; 
 }
 nav {
     display: flex;
@@ -49,10 +49,13 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 5px solid rgba(0, 0, 0, 0.25);
     background-color: #47CCB8;
-    display: flex;
-    justify-content: center;
+
 }
 .collection-grid {
     margin: 48px 0;
