@@ -13,6 +13,12 @@ html, body {
     background-color:#784187; 
     padding: 32px 0;
 }
+header {
+    text-align: flex-start; 
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #103970;
+    color: pink; 
+}
 main {
     max-width: 1200px;
     width: 90%;
