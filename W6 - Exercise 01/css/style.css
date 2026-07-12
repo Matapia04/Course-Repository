@@ -164,7 +164,9 @@ code {
   justify-content: space-between;
 }
 
-.nav-custom li {}
+.nav-custom li {
+  margin-right: 16px;
+}
 
 .nav-custom a {
   display: block;
