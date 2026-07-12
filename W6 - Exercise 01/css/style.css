@@ -158,6 +158,7 @@ code {
   border: 1px solid black;
   padding: 0 16px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-custom ul {
