@@ -147,15 +147,39 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px; 
+  background-color: limegreen;
+  color: white; 
+  border: 1px solid black;
+}
 
-.nav-custom ul {}
+.nav-custom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
 
 .nav-custom li {}
 
-.nav-custom a {}
+.nav-custom a {
+  display: block;
+  padding: 16px;
+  color: #333333;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
 
-.nav-custom a:hover {}
+.nav-custom a:hover {
+  background-color: red; 
+  color: white; 
+}
 
 @media (width >=480px) {}
 
