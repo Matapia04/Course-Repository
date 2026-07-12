@@ -157,7 +157,7 @@ code {
   color: white; 
   border: 1px solid black;
   padding: 0 16px;
-  justify-content: space-between;
+  justify-content: wrap-around;
   align-items: center;
 }
 
@@ -166,7 +166,7 @@ code {
   margin: 16px 0;
   padding: 8px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: wrap-around;
 }
 
 .nav-custom li {
