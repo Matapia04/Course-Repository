@@ -87,17 +87,39 @@ main {
     max-width: 1000px;
     margin: 100px auto 40px;
     padding: 20px; 
-    background: white;
-    border: 1px solid black; 
-    margin-top: 40px; 
 }
 p, h1, h2, main {
     margin-bottom: 20px; 
 }
-.container{ 
-    margin: 0 auto; 
-    padding: 40px; 
-    max-width: 1200px; 
-    color: black; 
-    background-color: #E9D39F; 
+.card {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background: #e9d39f; 
+    padding: 30px; 
+    margin-bottom: 30px; 
+    border-radius: 10px; 
+}
+.text { 
+    flex: 2; 
+    padding-right: 30px;
+}
+.image {
+    flex: 1; 
+}
+.image img { 
+    width: 100%;
+    max-width: 250px; 
+    border-radius: 10px; 
+    display: block; 
+}
+@media (max-width: 770px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text {
+        padding-right: 0; 
+        margin-bottom: 20px
+    }
 }
