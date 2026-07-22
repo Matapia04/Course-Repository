@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-head {
+header {
     font-family: "Times New Roman", serif;
     line-height: 2;
     background-color: orange;
     color: white; 
     padding: 16px 8px;
+    max-width: 1200px; 
+    max-height: 800px; 
 }
 ul {
     margin-left: 32px;
@@ -42,14 +44,14 @@ li {
 }
 .nav-horizon a {
     display: block; 
-    padding: 16px 0; 
+    padding: 48px 0; 
     color: white; 
     text-decoration: none; 
     transition: background-color 0.3 ease, color 0.3 ease; 
     
 }
 .nav-horizon a:hover {
-    color: black; 
+    color: white; 
     background-color: orange; 
 }
 .nav-horizon+main {
@@ -77,4 +79,5 @@ body {
     justify-content: center; 
     align-items: flex-start;
     padding: 20px 0; 
+    border: 1px solid black; 
 } 
