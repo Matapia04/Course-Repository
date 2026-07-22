@@ -93,3 +93,10 @@ main {
 p, h1, h2, main {
     margin-bottom: 20px; 
 }
+.container{ 
+    margin: 0 auto; 
+    padding: 40px; 
+    max-width: 1200px; 
+    color: black; 
+    background-color: #E9D39F; 
+}
