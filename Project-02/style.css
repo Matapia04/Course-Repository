@@ -32,6 +32,7 @@ li {
    margin: 0; 
    padding: 0; 
    display: flex; 
+   justify-content: space-between; 
    gap: 32 px; 
 
 }
@@ -43,10 +44,11 @@ li {
     padding: 16px 0; 
     color: white; 
     text-decoration: none; 
-    transition: color 0.3 ease; 
+    transition: background-color 0.3 ease, color 0.3 ease; 
+    background-color: orange; 
 }
 .nav-horizon a:hover {
-    color: orange; 
+    color: black; 
 }
 .nav-horizon+main {
     margin-top: 80px; 
