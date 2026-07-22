@@ -103,6 +103,7 @@ h1, h2 {
     padding: 30px; 
     margin-bottom: 30px; 
     border-radius: 10px; 
+    border: 3px solid black; 
 }
 .text { 
     flex: 2; 
@@ -140,7 +141,8 @@ h1, h2 {
     border-radius: 10px; 
     padding: 20px; 
     text-align: center; 
-    box-shadow: 0 3px 10px rgba(0,0,0,.15)
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+    border: 1px solid black; 
 }
 .card-g img{
     width: 100%; 
