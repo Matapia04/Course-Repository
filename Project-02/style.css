@@ -59,6 +59,14 @@ html, body {
     min-height: 100vh; 
     margin: 0;
 }
+.penguin-banner {
+    background-image: url('Penguins.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    min-height: 400px;
+}
 body {
     font-family: "Times New Roman", serif;
     line-height: 2;
