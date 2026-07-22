@@ -44,7 +44,7 @@ li {
 .nav-horizon a {
     display: block; 
     padding: 24px 0; 
-    color: white; 
+    color: black; 
     text-decoration: none; 
     transition: background-color 0.3 ease, color 0.3 ease; 
     
