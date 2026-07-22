@@ -10,6 +10,13 @@ head {
     color: white; 
     padding: 16px 8px;
 }
+ul {
+    margin-left: 32px;
+    margin-bottom: 16px; 
+}
+li { 
+    margin-bottom: 8px; 
+}
 .nav-horizon { 
    position: fixed; 
    top: 0;
@@ -43,6 +50,10 @@ head {
 }
 .nav-horizon+main {
     margin-top: 80px; 
+}
+html, body { 
+    min-height: 100vh; 
+    margin: 0;
 }
 body {
     font-family: "Times New Roman", serif;
