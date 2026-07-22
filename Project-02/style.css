@@ -57,9 +57,7 @@ li {
 .nav-horizon a:hover {
     color: white; 
 }
-.nav-horizon,main {
-    margin-top: 80px; 
-}
+
 .penguin-banner {
     display: flex; 
     justify-content: center; 
@@ -87,6 +85,7 @@ main {
     max-width: 1000px;
     margin: 100px auto 40px;
     padding: 20px; 
+    padding-top: 30px; 
 }
 p, h1, h2, main {
     margin-bottom: 20px; 
