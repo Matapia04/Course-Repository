@@ -76,7 +76,7 @@ li {
     text-shadow: 2px 2px 8px black; 
 }
 body {
-    font-family: "Lora", serif;
+    font-family: Lora, serif; 
     line-height: 2;
     background-color: #ade4ea;
     color: black;
