@@ -139,6 +139,7 @@ h1, h2 {
     border-radius: 10px; 
     padding: 20px; 
     text-align: center; 
+    box-shadow: 0 3px 10px rgba(0,0,0,.15)
 }
 .card-g img{
     width: 100%; 
