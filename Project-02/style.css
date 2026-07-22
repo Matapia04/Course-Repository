@@ -120,7 +120,8 @@ h1, h2 {
 .intro {
     text-align: center; 
     margin-bottom: 40px; 
-    background: #e9d39f
+    background: #e9d39f; 
+    border: 1px solid black; 
 }
 .intro h1{
     margin-bottom: 20px;
