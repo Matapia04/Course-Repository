@@ -127,7 +127,7 @@ h1, h2 {
 }
 .gallery {
     display: flex; 
-    flex: wrap;
+    flex-wrap: wrap; 
     justify-content: center; 
     max-width: 1200px; 
     margin: 50px auto; 
