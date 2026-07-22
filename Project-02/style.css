@@ -76,9 +76,9 @@ li {
     text-shadow: 2px 2px 8px black; 
 }
 body {
-    font-family: "Times New Roman", serif;
+    font-family: "Lora", serif;
     line-height: 2;
-    background-color: #7beefb;
+    background-color: #ade4ea;
     color: black;
 } 
 main {
@@ -91,6 +91,10 @@ main {
 p, h1, h2, main {
     margin-bottom: 20px; 
 }
+h1, h2 {
+    font-family: "Merriweather", serif; 
+}
+
 .card {
     display: flex; 
     justify-content: space-between; 
