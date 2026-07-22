@@ -53,9 +53,8 @@ li {
 }
 .nav-horizon a:hover {
     color: white; 
-    background-color: orange; 
 }
-.nav-horizon+main {
+.nav-horizon,main {
     margin-top: 80px; 
 }
 .penguin-banner {
